@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>6aus49</title>
+  </head>
+  <body onload="init()">
+    <h1>6 aus 49</h1>
+
+    <span class="content"
+      >Berechnung <br />
+      der <br />
+      Wahrscheinlichkeit <br />
+      aus:
+    </span>
+    <div class="buttons">
+      <button id="defWeeks52" onclick="buttonSelect(52)">1 Jahr</button>
+      <button id="defWeeks104" onclick="buttonSelect(104)">2 Jahre</button>
+      <button id="defWeeks156000" onclick="buttonSelect(156000)">
+        3 Jahre
+      </button>
+    </div>
+    <div class="circles">
+      <div id="circle0"></div>
+      <div id="circle1"></div>
+      <div id="circle2"></div>
+      <div id="circle3"></div>
+      <div id="circle4"></div>
+      <div id="circle5"></div>
+    </div>
+    <button class="start" onclick="calculate()">Start</button>
+  </body>
+</html>
